@@ -14,7 +14,7 @@ const AppContain = styled.div`
 const HeaderContainer = styled.div`
   display: block;
   margin: auto;
-  width: 55%;
+  width: 45%;
 `;
 
 const Title = styled.h1`

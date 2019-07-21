@@ -11,7 +11,12 @@ const Footer = () => (
       </NonHyper>
     </FootText>
     <FootText>
-      <LogoStyled src={GitHubMark32px} alt="Github logo" />
+      <NonHyper
+        href="https://github.com/esack7/simple-chordpro"
+        target="_blank"
+      >
+        <LogoStyled src={GitHubMark32px} alt="Github logo" />
+      </NonHyper>
     </FootText>
   </Foot>
 );
