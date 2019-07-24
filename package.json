@@ -1,6 +1,7 @@
 {
   "name": "simple_chordpro",
   "version": "0.1.0",
+  "homepage": "http://esack7.github.io/simple-chordpro",
   "private": true,
   "dependencies": {
     "pako": "^1.0.10",
@@ -16,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,6 +39,7 @@
     "eslint-config-airbnb": "^17.1.1",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-prettier": "^3.1.0",
+    "gh-pages": "^2.0.1",
     "prettier": "^1.18.2"
   }
 }
