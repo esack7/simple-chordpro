@@ -1,7 +1,6 @@
 {
   "name": "simple_chordpro",
   "version": "0.1.0",
-  "homepage": "http://esack7.github.io/simple-chordpro",
   "private": true,
   "dependencies": {
     "pako": "^1.0.10",
