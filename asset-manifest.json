@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/simple-chordpro/static/js/main.5b8b6a64.chunk.js",
-    "main.js.map": "/simple-chordpro/static/js/main.5b8b6a64.chunk.js.map",
-    "runtime~main.js": "/simple-chordpro/static/js/runtime~main.911a3669.js",
-    "runtime~main.js.map": "/simple-chordpro/static/js/runtime~main.911a3669.js.map",
-    "static/js/2.ebd8a8a5.chunk.js": "/simple-chordpro/static/js/2.ebd8a8a5.chunk.js",
-    "static/js/2.ebd8a8a5.chunk.js.map": "/simple-chordpro/static/js/2.ebd8a8a5.chunk.js.map",
-    "index.html": "/simple-chordpro/index.html",
-    "precache-manifest.c8adbe81502d77dd6c9396965899a88d.js": "/simple-chordpro/precache-manifest.c8adbe81502d77dd6c9396965899a88d.js",
-    "service-worker.js": "/simple-chordpro/service-worker.js"
+    "main.js": "/static/js/main.5d7bb69c.chunk.js",
+    "main.js.map": "/static/js/main.5d7bb69c.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.96c3d440.chunk.js": "/static/js/2.96c3d440.chunk.js",
+    "static/js/2.96c3d440.chunk.js.map": "/static/js/2.96c3d440.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2a6e051968c5e62b4e18dc9f4a8f4c0b.js": "/precache-manifest.2a6e051968c5e62b4e18dc9f4a8f4c0b.js",
+    "service-worker.js": "/service-worker.js"
   }
 }
