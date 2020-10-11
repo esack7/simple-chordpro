@@ -1,10 +1,10 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import uuid from 'uuid/v4';
 import {
   parseCP as parse,
   createCP as create,
   transpose,
+  keys as keyList,
 } from 'simplechordpro';
 import {
   StyledSongPad,
@@ -16,28 +16,6 @@ import {
   Select,
   TransposeDiv,
 } from '../style/Styles';
-
-const keyList = [
-  'A',
-  'A#',
-  'Bb',
-  'B',
-  'C',
-  'C#',
-  'Db',
-  'D',
-  'D#',
-  'Eb',
-  'E',
-  'F',
-  'F#',
-  'Gb',
-  'G',
-  'G#',
-  'Ab',
-  'Nashville',
-  'Solfège',
-];
 
 class SongPad extends React.Component {
   constructor(props) {
