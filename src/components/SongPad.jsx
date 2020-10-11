@@ -2,6 +2,11 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 import uuid from 'uuid/v4';
 import {
+  parseCP as parse,
+  createCP as create,
+  transpose,
+} from 'simplechordpro';
+import {
   StyledSongPad,
   TextBoxContainer,
   TextBox,
@@ -11,10 +16,28 @@ import {
   Select,
   TransposeDiv,
 } from '../style/Styles';
-import parse from '../utils/parse_chordpro';
-import create from '../utils/create_chordpro';
-import { keyList } from '../utils/chords';
-import transpose from '../utils/transpose';
+
+const keyList = [
+  'A',
+  'A#',
+  'Bb',
+  'B',
+  'C',
+  'C#',
+  'Db',
+  'D',
+  'D#',
+  'Eb',
+  'E',
+  'F',
+  'F#',
+  'Gb',
+  'G',
+  'G#',
+  'Ab',
+  'Nashville',
+  'Solfège',
+];
 
 class SongPad extends React.Component {
   constructor(props) {
@@ -100,7 +123,6 @@ class SongPad extends React.Component {
   }
 
   render() {
-    // const { importPdfClick } = this.props;
     const { songInput, currentKey, newKey } = this.state;
     return (
       <StyledSongPad>
@@ -147,7 +169,6 @@ class SongPad extends React.Component {
             </Label>
             <Buttons onClick={this.handleTranspose}>Transpose</Buttons>
           </TransposeDiv>
-          {/* <Buttons onClick={importPdfClick}>Import PDF</Buttons> */}
           <Buttons onClick={this.handleUndo}>Undo</Buttons>
           <Buttons onClick={this.handleClear}>Clear</Buttons>
         </Aside>
@@ -162,9 +183,5 @@ class SongPad extends React.Component {
     );
   }
 }
-
-// SongPad.propTypes = {
-//   importPdfClick: PropTypes.func.isRequired,
-// };
 
 export default SongPad;
