@@ -30,6 +30,7 @@
           "argsIgnorePattern": "res|next|^err"
         }
       ],
+      "react/jsx-filename-extension": false,
       "prettier/prettier": [
         "error",
         {
